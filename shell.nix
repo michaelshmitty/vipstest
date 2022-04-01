@@ -4,6 +4,8 @@ in
 pkgs.mkShell {
   buildInputs = with pkgs; [
     ruby_3_1
+    # Uncomment the following line after you have uninstalled vips with homebrew
+    # vips
   ];
 
   shellHook = ''
